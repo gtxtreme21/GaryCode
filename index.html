@@ -8,6 +8,13 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+	<script src="external/jquery/jquery.js"></script>
+	<script src="https://github.com/gtxtreme21/Wildcard_Combobox/blob/master/jquery-ui.js"></script>
+    <script> 
+    $(function(){
+      $("#includeWildcarddiv").load("https://github.com/gtxtreme21/Wildcard_Combobox/blob/master/comboboxWildcard.html"); 
+    });
+    </script>	
   </head>
   <body>
     <section class="page-header">
@@ -20,7 +27,8 @@
 
     <section class="main-content">
 	<h3>
-		<div w3-include-html="https://github.com/gtxtreme21/Wildcard_Combobox/blob/master/comboboxWildcard.html"></div>
+		<div id="includeWildcarddiv"></div>
+
 		<br clear="all"/>
 		<a href="https://github.com/gtxtreme21/Wildcard_Combobox/blob/master/comboboxWildcard.html">Wildcard Combobox</a>
 	</h3>
